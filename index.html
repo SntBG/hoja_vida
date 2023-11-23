@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>David Cortes</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- SECCIÓN INICIO-->
+    <section id="inicio">
+      <div class="contenido">
+        <header>
+          <div class="contenido-header">
+            <div class="logo">
+              <img src="images/logo.png" alt="Logo de DC" />
+            </div>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="#inicio"
+                    class="seleccionado"
+                    onclick="seleccionar(this)"
+                    >INICIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a>
+                </li>
+                <li>
+                  <a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a>
+                </li>
+                <li>
+                  <a href="#portafolio" onclick="seleccionar(this)"
+                    >PORTAFOLIO</a
+                  >
+                </li>
+                <li>
+                  <a href="#contacto" onclick="seleccionar(this)">CONTACTO</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- Iconos del menu responsive-->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+            <!-- Iconos de las redes sociales-->
+            <div class="redes">
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=+573016661724&text=Hola+David+Cortes..."
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a target="_blank" href="https://www.instagram.com/davidc._.s/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/david-cortes-a1aab1231/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </header>
+        <div class="presentacion">
+          <p class="bienvenida">Bienvenidos</p>
+          <h2>Soy <span>David Cortes</span>, Desarrollador de software</h2>
+          <p class="descripcion">
+            Explorando la programación, fusionando creatividad y lógica para
+            construir experiencias digitales.
+          </p>
+          <a href="#portafolio">Ir a portafolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN SOBRE MI -->
+    <section id="sobremi">
+      <div class="contenedor-foto">
+        <img src="images/foto.jpg" alt="" />
+      </div>
+      <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>
+        <h2>Hola, soy <span>David Cortes</span></h2>
+        <h3>Desarrollador de software</h3>
+        <p>
+          Soy David, un desarrollador de software junior con fuertes
+          valores centrados en el trabajo en equipo, autonomía y compromiso. Mi
+          enfoque se basa en la creación colaborativa, donde la autonomía
+          impulsa mi pasión por resolver problemas.
+        </p>
+        <p>Estoy listo para contribuir con entusiasmo y aprender de
+          cada experiencia que se presente, creyendo firmemente que el trabajo
+          en equipo es la clave para alcanzar metas extraordinarias.
+        </p>
+        <a target="_blank" href="https://drive.google.com/file/d/1ttc7FGw8GNa1YjBVHh-GqND-_dM7Y7rs/view?usp=sharing" download="DavidCV.pdf">Descargar CV</a>
+      </div>
+    </section>
+
+    <!-- SECCIÓN SERVICIOS -->
+    <section id="servicios">
+      <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+            molestias iure earum soluta impedit accusamus sed? Quae quidem
+            beatae molestiae labore, earum in impedit perspiciatis, iste,
+            assumenda error maiores ex?
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+            molestias iure earum soluta impedit accusamus sed? Quae quidem
+            beatae molestiae labore, earum in impedit perspiciatis, iste,
+            assumenda error maiores ex?
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+            molestias iure earum soluta impedit accusamus sed? Quae quidem
+            beatae molestiae labore, earum in impedit perspiciatis, iste,
+            assumenda error maiores ex?
+          </p>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+            molestias iure earum soluta impedit accusamus sed? Quae quidem
+            beatae molestiae labore, earum in impedit perspiciatis, iste,
+            assumenda error maiores ex?
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+            molestias iure earum soluta impedit accusamus sed? Quae quidem
+            beatae molestiae labore, earum in impedit perspiciatis, iste,
+            assumenda error maiores ex?
+          </p>
+        </div>
+        <div class="servicio">
+          <span class="icono"><i class="fa-solid fa-code"></i></span>
+          <h4>Diseño de Sitios Web</h4>
+          <hr />
+          <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui
+            molestias iure earum soluta impedit accusamus sed? Quae quidem
+            beatae molestiae labore, earum in impedit perspiciatis, iste,
+            assumenda error maiores ex?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+      <h3>HABILIDADES</h3>
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>HTML & CSS</p>
+          <span class="porcentaje">95%</span>
+        </div>
+        <div class="barra">
+          <div class="" id="html"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Javascript</p>
+          <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+          <div class="" id="js"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Base de Datos</p>
+          <span class="porcentaje">90%</span>
+        </div>
+        <div class="barra">
+          <div class="" id="bd"></div>
+        </div>
+      </div>
+
+      <div class="skill">
+        <div class="info">
+          <p><span class="lista"></span>Java</p>
+          <span class="porcentaje">85%</span>
+        </div>
+
+        <div class="barra">
+          <div class="" id="java"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCIÓN PORTAFOLIO -->
+    <section id="portafolio">
+      <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="images/proyecto1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripción del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="images/proyecto1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripción del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="images/proyecto1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripción del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="images/proyecto1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripción del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="images/proyecto1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripción del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="images/proyecto1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripción del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+      </div>
+      <div class="fila">
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="images/proyecto1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripción del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="images/proyecto1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripción del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+        <div class="proyecto">
+          <div class="overlay"></div>
+          <img src="images/proyecto1.jpg" alt="" />
+          <div class="info">
+            <h4>Descripción del Proyecto</h4>
+            <p>Diseño Web</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto">
+      <h3 class="titulo-seccion">Contactame ahora</h3>
+      <div class="contenedor-form">
+        <form action="">
+          <div class="fila mitad">
+            <input
+              type="text"
+              placeholder="Nombre Completo"
+              class="input-mitad"
+            />
+            <input
+              type="text"
+              placeholder="Dirección de Email"
+              class="input-mitad"
+            />
+          </div>
+          <div class="fila">
+            <input type="text" placeholder="Tema..." class="input-full" />
+          </div>
+          <div class="fila">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Tu Mensaje..."
+              class="input-full"
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Enviar Mensaje" class="btn-enviar" />
+        </form>
+      </div>
+    </section>
+
+    <!-- SECCIÓN FOOTER -->
+    <footer>
+      <p>Todos los derechos reservados - 2023</p>
+      <div class="redes">
+        <a
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=+573016661724&text=Hola+David+Cortes..."
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a target="_blank" href="https://www.instagram.com/davidc._.s/"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/david-cortes-a1aab1231/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
